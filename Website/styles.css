@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    background-image: url('gojoo.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: #291a1a;
+    cursor: url('gojo.png') 16 16, auto;
+}
+
+.highlight {
+    font-weight: bold;
+    color: red;
+}
+
+nav {
+    background-color: rgba(52, 0, 0, 0.8);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 10;
+    border-radius: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #440000;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.profile {
+    text-align: center;
+    background-color: rgba(84, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #ffffff;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile h2 {
+    font-size: 1.8em;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.assignment-projects {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d4d4d4; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.assignments, .projects {
+    width: 45%;
+    text-align: center;
+}
+
+.assignments h3, .projects h3 {
+    font-size: 1.5em;
+    color: #222;
+}
+
+.assignments ul, .projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.assignments ul li, .projects ul li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.assignments ul li:nth-child(2), .projects ul li:nth-child(2) {
+    background-color: #000000;
+}
+
+.assignments ul li a, .projects ul li a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.assignments ul li a:hover, .projects ul li a:hover {
+    color: red;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 800px; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+}
+
+#top-animes ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#top-animes ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
