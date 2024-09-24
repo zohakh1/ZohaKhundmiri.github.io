@@ -130,6 +130,10 @@ section {
     border-radius: 10px;
 }
 
+iframe {
+    border: none;
+}
+
 #top-animes ul {
     list-style-type: none;
     padding-left: 0;
